@@ -1,0 +1,247 @@
+.navbar_main{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid grey;
+    border-color: gray; */
+    box-shadow: 0 0 30px rgb(21 55 44 / 10%);
+    cursor: pointer;
+}
+
+.navbar_left{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navbar_right{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navbar_signin{
+  color: #2e4c43;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 1;
+  padding: 12px 10px ;
+  min-height: 30px;
+  cursor: pointer;
+}
+
+.navbar_request_a_demo{
+    background-color: #3574d6;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #008561;
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding: 12px 10px ;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.nav_logo{
+    background-image: url("https://www.greenhouse.io/assets/svg/logo.svg");
+    width: 8.7rem;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 2em;
+    /* background-size: 100% */
+}
+
+.search_box{
+    background-image: url("https://www.greenhouse.io/assets/svg/search.svg");
+    background-repeat: no-repeat;
+    background-size: 19px 21px;
+    background-position: 50%;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.nav_products_link ,.nav_community, .nav_resources, .nav_aboutus {
+  text-decoration: none;
+  color: #2e4c43;
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+.nav_products_link, .nav_resources ,.nav_aboutus, .nav_community{
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    margin-right: 32px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #153
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  } */
+/*   
+  .fa-firstdraft {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+  }
+   */
+  /* .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  } */
+  
+  /* .nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  } */
+/*   
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  } */
+  
+  /* .nav-links:hover {
+    background-color: #1888ff;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  } */
+  
+  /* .fa-bars {
+    color: #fff;
+  } */
+  
+  /* .nav-links-mobile {
+    display: none;
+  } */
+  
+  /* .menu-icon {
+    display: none;
+  } */
+  
+  /* @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #1888ff;
+      border-radius: 0;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      text-align: center;
+      padding: 1.5rem;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      background: #1888ff;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  
+    .nav-links-mobile:hover {
+      background: #fff;
+      color: #1888ff;
+      transition: 250ms;
+    }
+  
+    button {
+      display: none;
+    }
+  } */

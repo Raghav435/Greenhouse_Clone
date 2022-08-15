@@ -1,0 +1,149 @@
+/* *{
+    font-family: "Untitled Serif",Georgia,serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway' , sans-serif;
+}
+
+.integrations_section_1 ,.integrations_section_2 ,.integrations_section_4{
+    display: flex;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.integrations_section_1_part_1 ,.integrations_section_2_part_1 ,.integrations_section_4_part_1{
+    margin: 10rem 8rem 0rem 7rem;
+}
+
+.integrations_section_1_part_1_text ,.integrations_section_2_part_1_text ,.integrations_section_4_part_1_text{
+    color: #008561;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+.integrations_section_1_part_1_head{
+    font-size: 4rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+} 
+
+.integrations_section_2_part_1_head ,.integrations_section_4_part_1_head{
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+}
+
+.integrations_section_1_part_1_button ,.integrations_section_4_part_1_button{
+    background-color:#008561;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #008561;
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding: 12px 10px ;
+    min-height: 30px;
+    cursor: pointer;
+    margin: 2rem 0rem 0rem 0rem;
+    text-decoration: none; 
+}
+
+.Integrations_section_3{
+    display: flex;
+    padding-left: 20px;
+}
+
+.integrations_section_3_part_1{
+    padding: 10rem 5rem 0rem 5rem;
+
+}
+
+.integrations_section_3_part_1>h2{
+    font-family: "Untitled Serif",Georgia,serif;
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+}
+
+.integrations_section_3_part_1>button{
+    background-color:#fff;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid #008561;
+    display: inline-block;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 12px 30px;
+    min-height: 43px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.integrations_section_3_part_2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 1rem;
+    margin-left: 0rem;
+    border-left: 1px solid #008561;
+    padding: 0rem 0rem 0rem 6.6rem;
+}
+
+.integrations_section_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 2rem;
+}
+
+.middle_section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.filter_list_top, .filter_panel_section ,.list_section{
+    overflow-y: auto;
+}
+
+.filter_list_top{
+    display: flex;
+    flex: 1;
+}
+
+.filter_panel_section{
+    flex-basis: 280px;
+}
+
+.list_section{
+    flex: 1;
+}
+
+.list_section>h2{
+    font-size: 3.5rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+    margin: 2rem 0rem 0rem 3.5rem;
+}
+
+.list_section>p{
+    color: #008561;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 2rem 8rem 5rem 3.5rem;
+}

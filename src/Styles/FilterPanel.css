@@ -1,0 +1,26 @@
+.label {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .input-group {
+    margin-bottom: 2rem;
+  }
+  .label-range {
+    margin-bottom: 2.5rem;
+  }
+  .label{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+    color: teal;
+  }
+  .filter_stack{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: larger;
+  }
+  .filter_stack:hover{
+    color: red;
+  }

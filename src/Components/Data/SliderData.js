@@ -1,0 +1,26 @@
+export const SliderData = [
+    {
+      image:
+        'https://sharp.services.greenhouse.io/production/G2-Top-100-Software-Products-2021-badge-3.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=2a2eb5a4a6e60b72e8aba30cc98f878ad67a5ff9f5add7f407cd9068ab605599'
+    },
+    {
+      image:
+        'https://sharp.services.greenhouse.io/production/Gartner-logo-green.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=1935dc483e1f25c1240927e629ab85dc1e186f39ca56488ecf2b7675c7afb4c0'
+    },
+    {
+      image:
+        'https://sharp.services.greenhouse.io/production/IDC-logo-green.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=6730461412d8792615ab3dae4f21388712a36509d08b78008a74dd1b891535df'
+    },
+    {
+      image:
+        'https://sharp.services.greenhouse.io/production/Inc.-500-logo-green.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=33f06b8f0c4e14abf6ac127dcb03f689ee980d7d015f0ce5629827b845fc3dc0'
+    },
+    {
+      image:
+        'https://sharp.services.greenhouse.io/production/FORTUNE-logo-green.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=9b0ea6d56376e272a4117f308afad6bb07277adc74b0aa5b3d6032ebf59b33d7'
+    },
+    {
+        image:
+        'https://sharp.services.greenhouse.io/production/Comparably-Diversity-badge-green.png?auto=compress&fit=max&lossless=true&q=90&w=480&s=daac1311dac27c14f1bb0319fd1149cf82e953d33f4aac33a28b20b80a2fc76c'
+    }
+  ];

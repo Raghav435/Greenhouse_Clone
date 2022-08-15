@@ -1,0 +1,39 @@
+.listItem-wrap img {
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  .listItem_img_div{
+    width: 100%;
+    min-height: 180px;
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+
+  .listItem-wrap header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+  }
+  
+  .listItem-wrap header span {
+    font-size: 0.7rem;
+    background-color: #97ffff;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  .listItem-wrap footer {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .listItem-wrap footer p:first-child span {
+    color: rgba(0, 0, 0, 0.26);
+    font-weight: 600;
+  }

@@ -1,0 +1,114 @@
+*{
+    font-family: "Untitled Serif",Georgia,serif;
+} 
+.demo_section_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.demo_section_1_button{
+    background-color: #008561;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #008561;
+    display: inline-block;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 10px 25px;
+    min-height: 43px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.demo_section_1_part_1{
+    padding: 0rem 5rem 0rem 5rem;
+    background-color: #f5f5f5;
+}
+
+.demo_section_1_part_2{
+    padding: 0rem 9rem 0rem 15rem;
+    background-color: #d2ece5;
+}
+
+.demo_section_1_part_1_head_1{
+    font-size: 3.5rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+    margin: 2rem 2rem 0rem 2rem;
+}
+.demo_section_1_part_1_head_2{
+    margin: 2rem 2rem 0rem 2rem;
+}
+.demo_section_1_part_1_head_3{
+    margin: 2rem 2rem 0rem 2rem;
+}
+.demo_section_1_part_1_text{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin: 3rem 2rem 3rem 2rem;
+}
+.demo_form{
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0rem 7rem 0rem 0rem;
+}
+.email_label, .firstname_label, .lastname_label, .companyname_label, .label{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 5rem 0rem 1rem 0rem;
+    color:#008561;
+}
+.label_bottom{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+
+}
+.input{
+    font-size: 20px;
+    padding: 0rem 0rem 0rem 0.5rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 10px;
+}
+.demo_section_2{
+    display: flex;
+    padding-left: 20px;
+}
+.demo_section_2_part_1{
+    padding: 10rem 5rem 0rem 5rem;
+}
+.demo_section_2_part_1_head{
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #425d54;
+}
+.demo_section_2_part_2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 0rem 0rem 0rem 10.8rem;
+    margin-left: 0rem;
+    border-left: 1px solid #d2ece5;
+}
+.demo_section_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 2rem;
+}
+.demo_section_3_head{
+    font-family: "Untitled Serif",Georgia,serif;
+    font-size: 2.5rem;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    color: #2e4c43;
+    margin: 2rem 30rem 3rem 10rem;
+    border-bottom: 1px solid gray;
+}
